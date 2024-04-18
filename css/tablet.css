@@ -1,0 +1,26 @@
+header {
+    flex-direction: row;
+    height: 200px;
+    background: linear-gradient(135.0deg, #000 40%, var(--orange) 80%);
+
+}
+
+.header-image {
+    align-self: center;
+    width: 40%;
+}
+
+.header--title-container h1 {
+    margin-top: 20px;
+
+}
+
+.header--title-container .header--button {
+    top: 140px;
+}
+
+.main-keys-points { 
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}

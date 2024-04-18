@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoIoT</title>
+    <link rel="icon" type="image/jpg" href="./assets/icons/favicon.png"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
+
+  </head>
+
+  <body>
+    <header>
+        <div class="header-image">
+            <img src="./assets/imgs/logo-name.png" alt="">
+        </div>
+        
+        <div class="header--title-container">
+            <h1>A new platform for our IoT devices.</h1>
+            <p>This page is still under construction.</p>
+            <a id="btn-about" href="https://www.linkedin.com/in/claudio-s-rodriguez/" target="_blank" class="header--button btn-light">About me <span></span></a>
+            <div id="btnMode" class="header--dark-light-mode">Dark</div>
+
+
+        </div>
+    </header>
+
+    <main id="main" class="main-light">
+        <section class="main-description-container">
+            <div class="backgroundImg"></div>
+            <div class="main-description-container--info">
+                <h2 id="h2-main-title" class="h2-main-title-light">Description</h2>
+                <p>This is the first version, under construction, of a custom platform to manage IoT devices, and that can be implemented both on own servers or in the cloud.</p>
+                <p>This project includes both front-end and back-end development, with all the necessary services (MQTT, databases, and others). In addition, it also includes the development of custom IoT devices (based on ESPxx, among others).</p>
+            </div>
+        </section>
+
+        <section class="main-keys-points">
+
+            <div id="to-do-list" class="main-keys-points--to-do-list to-do-light">
+                <div>
+                    <h2 id="h2-to-do-list" class="to-do-h2-light">Roadmap</h2>
+                    <ul>
+                        <li>Web page developed with NUXT JS technology with API</li>
+                        <li>Database implementation: MongoDB, MariaDB</li>
+                        <li>MQTT server</li>
+                        <li>IoT devices</li>
+                        <li>Documentation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="completed-tasks" class="main-keys-points--completed-tasks completed-task-light">
+                <div>
+                    <h2 id="h2-completed-task" class="comp-task-h2-light">Completed tasks</h2>
+                    <ul>
+                        <li>Servers deployed with Ubuntu server</li>
+                        <li>Implementation of Docker technology</li>
+                        <li>Version control with Git and GitHub</li>
+                        <li>CI/CD Jenkins</li>                        
+                        <li>Deploy Gitea</li>
+                        <li>Python / Bash / C Script</li>
+                        <li>Using NicAr domains</li>
+                        <li>Domain delegation to DNS</li>
+                        <li>DNS linking with Web servers</li>
+                        <li>NGINX</li>
+                        <li>Web server with multiple domain hosting</li>                        
+                        <li>Static page "under construction" with responsive design. HTML, CSS and JS</li>
+                        <li>Basic IoT devices for testing</li>
+                        <li>Documentation</li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <section class="footer-left">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/claudio-s-rodriguez/" target="_blank">Linkedin</a></li>
+                <li><a href="https://github.com/csrodriguez" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+
+        <section class="footer-right">
+            <img src="./assets/imgs/logo.png" alt="Logo">
+        </section>
+
+    </footer>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
